@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Streamer details</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-8 col-sm-6">
+                    <div class="trend">
+                        <h2>Chess Streamer Details</h2>
+                        <p>---Pick The player---</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12 col-md-8 col-sm-6">
+                    <p class="player">Select any player from the drop-down to show their streaming details</p>
+                    <p class="note">(players images are blurred from the API itself)</p>
+                    <div style="text-align: center;">
+                        <label for="player" class="main">Select Player:</label>
+                        <select id="player" style="width:35%">
+                            <option>Choose the player</option>
+                        </select>
+                        <button type="button" class="btn btn-primary">Search</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+    
+</body>
+
+</html>
